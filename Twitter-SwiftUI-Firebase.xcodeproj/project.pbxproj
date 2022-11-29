@@ -11,6 +11,8 @@
 		C5C35911293605E5000EE401 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C35910293605E5000EE401 /* ContentView.swift */; };
 		C5C35913293605E7000EE401 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5C35912293605E7000EE401 /* Assets.xcassets */; };
 		C5C35916293605E7000EE401 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5C35915293605E7000EE401 /* Preview Assets.xcassets */; };
+		C5C35926293607B5000EE401 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C35925293607B5000EE401 /* FeedView.swift */; };
+		C5C3592929360908000EE401 /* TweetRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C3592829360908000EE401 /* TweetRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		C5C35910293605E5000EE401 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C5C35912293605E7000EE401 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5C35915293605E7000EE401 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C5C35925293607B5000EE401 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		C5C3592829360908000EE401 /* TweetRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,10 @@
 		C5C3590D293605E5000EE401 /* Twitter-SwiftUI-Firebase */ = {
 			isa = PBXGroup;
 			children = (
+				C5C35920293606BC000EE401 /* Extensions */,
+				C5C3591F293606BB000EE401 /* Model */,
+				C5C3591E293606B9000EE401 /* Service */,
+				C5C3591C293606B0000EE401 /* Core */,
 				C5C3590E293605E5000EE401 /* Twitter_SwiftUI_FirebaseApp.swift */,
 				C5C35910293605E5000EE401 /* ContentView.swift */,
 				C5C35912293605E7000EE401 /* Assets.xcassets */,
@@ -65,6 +73,76 @@
 				C5C35915293605E7000EE401 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C5C3591C293606B0000EE401 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C5C3592129360716000EE401 /* Components */,
+				C5C359222936071B000EE401 /* Feed */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C5C3591E293606B9000EE401 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		C5C3591F293606BB000EE401 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C5C35920293606BC000EE401 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C5C3592129360716000EE401 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C5C3592729360877000EE401 /* Tweets */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C5C359222936071B000EE401 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				C5C359232936077A000EE401 /* ViewModels */,
+				C5C3592429360780000EE401 /* View */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		C5C359232936077A000EE401 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C5C3592429360780000EE401 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C5C35925293607B5000EE401 /* FeedView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C5C3592729360877000EE401 /* Tweets */ = {
+			isa = PBXGroup;
+			children = (
+				C5C3592829360908000EE401 /* TweetRowView.swift */,
+			);
+			path = Tweets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +216,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5C35911293605E5000EE401 /* ContentView.swift in Sources */,
+				C5C3592929360908000EE401 /* TweetRowView.swift in Sources */,
+				C5C35926293607B5000EE401 /* FeedView.swift in Sources */,
 				C5C3590F293605E5000EE401 /* Twitter_SwiftUI_FirebaseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +353,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -302,6 +383,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
