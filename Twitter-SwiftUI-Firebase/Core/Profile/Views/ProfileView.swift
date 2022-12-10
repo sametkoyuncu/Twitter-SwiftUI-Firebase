@@ -20,6 +20,7 @@ struct ProfileView: View {
             
             Spacer()
         }
+        .edgesIgnoringSafeArea(.bottom)
     }
 }
 
@@ -169,5 +170,6 @@ extension ProfileView {
                 }
             }
         }
+       
     }
 }
