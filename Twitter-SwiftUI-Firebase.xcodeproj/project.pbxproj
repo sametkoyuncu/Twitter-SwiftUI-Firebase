@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C55911A629362633006587DD /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55911A529362633006587DD /* MainTabView.swift */; };
+		C59EF74F294AECE2006DB99E /* UserRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59EF74E294AECE2006DB99E /* UserRowView.swift */; };
 		C5C3590F293605E5000EE401 /* Twitter_SwiftUI_FirebaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C3590E293605E5000EE401 /* Twitter_SwiftUI_FirebaseApp.swift */; };
 		C5C35911293605E5000EE401 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C35910293605E5000EE401 /* ContentView.swift */; };
 		C5C35913293605E7000EE401 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5C35912293605E7000EE401 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		C55911A529362633006587DD /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		C59EF74E294AECE2006DB99E /* UserRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRowView.swift; sourceTree = "<group>"; };
 		C5C3590B293605E5000EE401 /* Twitter-SwiftUI-Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Twitter-SwiftUI-Firebase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C3590E293605E5000EE401 /* Twitter_SwiftUI_FirebaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twitter_SwiftUI_FirebaseApp.swift; sourceTree = "<group>"; };
 		C5C35910293605E5000EE401 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +56,14 @@
 				C55911A529362633006587DD /* MainTabView.swift */,
 			);
 			path = MainTab;
+			sourceTree = "<group>";
+		};
+		C59EF74D294AECCF006DB99E /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				C59EF74E294AECE2006DB99E /* UserRowView.swift */,
+			);
+			path = Users;
 			sourceTree = "<group>";
 		};
 		C5C35902293605E5000EE401 = {
@@ -133,6 +143,7 @@
 		C5C3592129360716000EE401 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				C59EF74D294AECCF006DB99E /* Users */,
 				C5C3592729360877000EE401 /* Tweets */,
 			);
 			path = Components;
@@ -297,6 +308,7 @@
 				C5C3592929360908000EE401 /* TweetRowView.swift in Sources */,
 				C5C35926293607B5000EE401 /* FeedView.swift in Sources */,
 				C5C3590F293605E5000EE401 /* Twitter_SwiftUI_FirebaseApp.swift in Sources */,
+				C59EF74F294AECE2006DB99E /* UserRowView.swift in Sources */,
 				C5F0F5BC29362833001B8ABF /* ExploreView.swift in Sources */,
 				C55911A629362633006587DD /* MainTabView.swift in Sources */,
 			);
