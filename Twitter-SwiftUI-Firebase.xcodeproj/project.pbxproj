@@ -13,6 +13,8 @@
 		C59EF758294AF2D7006DB99E /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59EF757294AF2D7006DB99E /* SideMenuViewModel.swift */; };
 		C59EF75A294B0534006DB99E /* UserStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59EF759294B0534006DB99E /* UserStatsView.swift */; };
 		C5AE0601294B168300F571C8 /* SideMenuOptionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AE0600294B168300F571C8 /* SideMenuOptionRowView.swift */; };
+		C5AE0606294B37CD00F571C8 /* NewTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AE0605294B37CD00F571C8 /* NewTweetView.swift */; };
+		C5AE0608294B39AB00F571C8 /* TextArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AE0607294B39AB00F571C8 /* TextArea.swift */; };
 		C5C3590F293605E5000EE401 /* Twitter_SwiftUI_FirebaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C3590E293605E5000EE401 /* Twitter_SwiftUI_FirebaseApp.swift */; };
 		C5C35911293605E5000EE401 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C35910293605E5000EE401 /* ContentView.swift */; };
 		C5C35913293605E7000EE401 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5C35912293605E7000EE401 /* Assets.xcassets */; };
@@ -33,6 +35,8 @@
 		C59EF757294AF2D7006DB99E /* SideMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewModel.swift; sourceTree = "<group>"; };
 		C59EF759294B0534006DB99E /* UserStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatsView.swift; sourceTree = "<group>"; };
 		C5AE0600294B168300F571C8 /* SideMenuOptionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionRowView.swift; sourceTree = "<group>"; };
+		C5AE0605294B37CD00F571C8 /* NewTweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTweetView.swift; sourceTree = "<group>"; };
+		C5AE0607294B39AB00F571C8 /* TextArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextArea.swift; sourceTree = "<group>"; };
 		C5C3590B293605E5000EE401 /* Twitter-SwiftUI-Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Twitter-SwiftUI-Firebase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C3590E293605E5000EE401 /* Twitter_SwiftUI_FirebaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twitter_SwiftUI_FirebaseApp.swift; sourceTree = "<group>"; };
 		C5C35910293605E5000EE401 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +105,30 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		C5AE0602294B379E00F571C8 /* UploadTweet */ = {
+			isa = PBXGroup;
+			children = (
+				C5AE0604294B37B600F571C8 /* ViewModels */,
+				C5AE0603294B37B100F571C8 /* Views */,
+			);
+			path = UploadTweet;
+			sourceTree = "<group>";
+		};
+		C5AE0603294B37B100F571C8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C5AE0605294B37CD00F571C8 /* NewTweetView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C5AE0604294B37B600F571C8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		C5C35902293605E5000EE401 = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				C5C3592129360716000EE401 /* Components */,
+				C5AE0602294B379E00F571C8 /* UploadTweet */,
 				C59EF750294AF1A6006DB99E /* SideMenu */,
 				C55911A429362577006587DD /* MainTab */,
 				C5F0F5B8293627C0001B8ABF /* Profile */,
@@ -181,6 +210,7 @@
 			children = (
 				C59EF74D294AECCF006DB99E /* Users */,
 				C5C3592729360877000EE401 /* Tweets */,
+				C5AE0607294B39AB00F571C8 /* TextArea.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -346,7 +376,9 @@
 				C5C35926293607B5000EE401 /* FeedView.swift in Sources */,
 				C5C3590F293605E5000EE401 /* Twitter_SwiftUI_FirebaseApp.swift in Sources */,
 				C59EF758294AF2D7006DB99E /* SideMenuViewModel.swift in Sources */,
+				C5AE0608294B39AB00F571C8 /* TextArea.swift in Sources */,
 				C59EF74F294AECE2006DB99E /* UserRowView.swift in Sources */,
+				C5AE0606294B37CD00F571C8 /* NewTweetView.swift in Sources */,
 				C5AE0601294B168300F571C8 /* SideMenuOptionRowView.swift in Sources */,
 				C5F0F5BC29362833001B8ABF /* ExploreView.swift in Sources */,
 				C55911A629362633006587DD /* MainTabView.swift in Sources */,
