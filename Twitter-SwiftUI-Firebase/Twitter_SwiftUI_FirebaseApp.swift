@@ -11,7 +11,9 @@ import SwiftUI
 struct Twitter_SwiftUI_FirebaseApp: App {
     var body: some Scene {
         WindowGroup {
-            MainTabView ()
+            NavigationView {
+                ContentView()
+            }
         }
     }
 }
