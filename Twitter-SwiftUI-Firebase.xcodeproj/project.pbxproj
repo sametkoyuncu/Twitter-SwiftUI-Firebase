@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C536451B295094CF00292C79 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536451A295094CF00292C79 /* AuthViewModel.swift */; };
 		C538AD7B294C5E4000D423A4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C538AD7A294C5E4000D423A4 /* LoginView.swift */; };
 		C538AD7D294C5E6D00D423A4 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C538AD7C294C5E6D00D423A4 /* RegistrationView.swift */; };
 		C538AD7F294C5FF700D423A4 /* RoundedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C538AD7E294C5FF700D423A4 /* RoundedShape.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C536451A295094CF00292C79 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		C538AD7A294C5E4000D423A4 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		C538AD7C294C5E6D00D423A4 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		C538AD7E294C5FF700D423A4 /* RoundedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShape.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 		C538AD79294C5E2900D423A4 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				C536451A295094CF00292C79 /* AuthViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -225,8 +228,8 @@
 		C5C3591C293606B0000EE401 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				C538AD77294C5E1100D423A4 /* Authentication */,
 				C5C3592129360716000EE401 /* Components */,
+				C538AD77294C5E1100D423A4 /* Authentication */,
 				C5AE0602294B379E00F571C8 /* UploadTweet */,
 				C59EF750294AF1A6006DB99E /* SideMenu */,
 				C55911A429362577006587DD /* MainTab */,
@@ -451,6 +454,7 @@
 				C538AD7D294C5E6D00D423A4 /* RegistrationView.swift in Sources */,
 				C5AE0606294B37CD00F571C8 /* NewTweetView.swift in Sources */,
 				C538AD7F294C5FF700D423A4 /* RoundedShape.swift in Sources */,
+				C536451B295094CF00292C79 /* AuthViewModel.swift in Sources */,
 				C5AE0601294B168300F571C8 /* SideMenuOptionRowView.swift in Sources */,
 				C538AD84294C966000D423A4 /* AuthHeaderView.swift in Sources */,
 				C5F0F5BC29362833001B8ABF /* ExploreView.swift in Sources */,
