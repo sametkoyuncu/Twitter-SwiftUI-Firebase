@@ -10,6 +10,7 @@ import SwiftUI
 struct CustomInputField: View {
     let imageName: String
     let placeholderText: String
+    var isSecureField: Bool? = false
     @Binding var text: String
     
     var body: some View {
@@ -20,8 +21,12 @@ struct CustomInputField: View {
                     .scaledToFit()
                     .frame(width: 20, height: 20)
                     .foregroundColor(Color(.darkGray))
+                if let isSecureField = isSecureField, isSecureField {
+                    SecureField(placeholderText, text: $text)
+                } else {
+                    TextField(placeholderText, text: $text)
+                }
                 
-                TextField(placeholderText, text: $text)
             }
             Divider()
                 .background(Color(.darkGray))
